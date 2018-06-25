@@ -1,0 +1,108 @@
+@import "_variables";
+
+h1 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 2.25;
+}
+
+h2 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 1.75;
+}
+
+h4 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 1.5;
+}
+
+h5 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 1.25;
+}
+
+h6 {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+p {
+  font-family: $serif-fonts;
+  font-size: $font-base-size * 0.75;
+
+  a {
+    color: $palette-one;
+    font-family: $serif-fonts;
+    font-size: $font-base-size * 0.75;
+
+    &:hover {
+      color: $palette-three;
+    }
+  }
+
+  input {
+    color: $palette-three;
+    font-family: $serif-fonts;
+    font-size: $font-base-size * 0.5;
+    border-color: $palette-three;
+    border-radius: $border-radius;
+    background-color: lighten($palette-one, 50%);
+
+    &:focus {
+      outline-color: $palette-four;
+    }
+  }
+
+  label {
+    color: $palette-four;
+    font-family: $serif-fonts;
+    font-size: $font-base-size * 0.75;
+  }
+
+  textarea {
+    color: $palette-three;
+    font-family: $serif-fonts;
+    font-size: $font-base-size * 0.5;
+    border-color: $palette-three;
+    border-radius: $border-radius;
+    background-color: lighten($palette-one, 50%);
+
+    &:focus {
+      outline-color: $palette-four;
+    }
+  }
+}
+
+figure {
+  img {
+    border-radius: $border-radius;
+  }
+
+  figcaption {
+    color: $palette-four;
+    font-family: $serif-fonts;
+    font-size: $font-base-size;
+  }
+}
+
+table {
+  thead {
+    th {
+      font-family: $serif-fonts;
+      font-size: $font-base-size;
+      color: $palette-two;
+    }
+  }
+
+  tbody {
+    td {
+      font-family: $serif-fonts;
+      font-size: $font-base-size * 0.75;
+      color: $palette-three;
+    }
+  }
+}
